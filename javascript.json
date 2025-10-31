@@ -1,0 +1,11 @@
+{
+  "fancy log": {
+    "prefix": "flog",
+    "body": [
+      "console.log(('='.repeat(40) + '\\n').repeat(3));",
+      "console.log($0);",
+      "console.log(('='.repeat(40) + '\\n').repeat(3));"
+    ],
+    "description": "fancy log"
+  }
+}

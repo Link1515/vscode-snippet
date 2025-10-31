@@ -1,0 +1,15 @@
+{
+  "print_r with pre tag": {
+    "prefix": "print",
+    "body": ["echo '<pre>';", "print_r($0);", "echo '</pre>';"],
+    "description": "print_r with pre tag"
+  },
+
+  "output json": {
+    "prefix": "outputJson",
+    "body": [
+      "file_put_contents('output.json', json_encode(\\$json, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));"
+    ],
+    "description": "print to a json file"
+  }
+}

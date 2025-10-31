@@ -1,0 +1,35 @@
+{
+    	"og meta tags": {
+		"prefix": "og-meta",
+		"body": [
+			"<meta property=\"og:type\" content=\"website\" />",
+			"<meta property=\"og:url\" content=\"\" />",
+			"<meta property=\"og:title\" content=\"\" />",
+			"<meta property=\"og:description\" content=\"\" />",
+			"<meta property=\"og:image\" content=\"\" />"
+		],
+		"description": "og meta tags"
+	},
+
+	"img rwd": {
+		"prefix": "img-rwd",
+		"body": [
+			"<picture>",
+			"  <source media=\"(min-width: 768px)\" srcset=\"$0\" />",
+			"  <img src=\"\" alt=\"\" />",
+			"</picture>"
+		],
+		"description": "img tag rwd"
+	},
+
+	"img with caption": {
+		"prefix": "img-with-caption",
+		"body": [
+			"<figure>",
+			"  <img src=\"\" alt=\"\" />",
+			"  <figcaption></figcaption>",
+			"</figure>"
+		],
+		"description": "img tag rwd"
+	}
+}
