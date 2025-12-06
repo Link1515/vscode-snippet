@@ -7,5 +7,15 @@
       "console.log(('='.repeat(40) + '\\n').repeat(3));"
     ],
     "description": "fancy log"
-  }
+  },
+
+  "region comment": {
+		"prefix": "regc",
+		"body": [
+		  "// #region",
+		  "$0",
+		  "// #endregion"
+		],
+		"description": "region comment"
+	}
 }
