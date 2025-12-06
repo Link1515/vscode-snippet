@@ -1,10 +1,13 @@
 {
   "print_r with pre tag": {
     "prefix": "print",
-    "body": ["echo '<pre>';", "print_r($0);", "echo '</pre>';"],
+    "body": [
+      "echo '<pre>';",
+      "print_r($0);",
+      "echo '</pre>';"
+    ],
     "description": "print_r with pre tag"
   },
-
   "output json": {
     "prefix": "outputJson",
     "body": [

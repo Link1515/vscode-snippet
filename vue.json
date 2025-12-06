@@ -1,19 +1,29 @@
 {
   "template tag": {
     "prefix": "template",
-    "body": ["<template>", "  $0", "</template>"],
+    "body": [
+      "<template>",
+      "  $0",
+      "</template>"
+    ],
     "description": "template tag"
   },
-
   "script tag with setup attr": {
     "prefix": "setup",
-    "body": ["<script setup>", "  $0", "</script>"],
+    "body": [
+      "<script setup>",
+      "  $0",
+      "</script>"
+    ],
     "description": "script tag with setup attr"
   },
-
   "ts script tag with setup attr": {
     "prefix": "script ts",
-    "body": ["<script setup lang=\"ts\">", "  $0", "</script>"],
+    "body": [
+      "<script setup lang=\"ts\">",
+      "  $0",
+      "</script>"
+    ],
     "description": "ts script tag with setup attr"
   }
 }

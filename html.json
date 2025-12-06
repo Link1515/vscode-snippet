@@ -1,5 +1,5 @@
 {
-    	"og meta tags": {
+	"og meta tags": {
 		"prefix": "og-meta",
 		"body": [
 			"<meta property=\"og:type\" content=\"website\" />",
@@ -10,7 +10,6 @@
 		],
 		"description": "og meta tags"
 	},
-
 	"img rwd": {
 		"prefix": "img-rwd",
 		"body": [
@@ -21,7 +20,6 @@
 		],
 		"description": "img tag rwd"
 	},
-
 	"img with caption": {
 		"prefix": "img-with-caption",
 		"body": [
